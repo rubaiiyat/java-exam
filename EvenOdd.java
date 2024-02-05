@@ -3,9 +3,9 @@ public class EvenOdd{
     public static void main(String[] args){
         int num;
 
-        System.out.println("Enter Your Number: ");
         Scanner sc= new Scanner(System.in);
-
+        
+        System.out.print("Enter Your Number: ");
         num=sc.nextInt();
 
         if(num%2==0){
